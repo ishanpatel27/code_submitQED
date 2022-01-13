@@ -1,0 +1,7 @@
+ApiKey.ApiKey:
+  path: '/ApiKey/{type}/{nid}'
+  defaults:
+    _title: 'JSON Page for Site API Key Display'
+    _controller: '\Drupal\ApiKey\Controller\ApiKeyController::ApiKey'
+  requirements:
+    _permission: 'access content'
